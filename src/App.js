@@ -10,6 +10,8 @@ function App() {
         <WeatherSearch />
         <CityDisplay icon="CLEAR_DAY" size={200} />
       </div>
+        
+
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -24,8 +26,11 @@ function App() {
           Learn React
         </a>
       </header> */}
+      
     </div>
+    
   );
+  
 }
 
 export default App;

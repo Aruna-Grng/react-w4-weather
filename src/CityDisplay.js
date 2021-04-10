@@ -1,6 +1,10 @@
 import React from "react";
 import "./CityDisplay.css";
 import ReactAnimatedWeather from "react-animated-weather";
+import HumidityInfo from "./HumidityInfo";
+import Temperature from "./Temperature";
+import WindSpeed from "./WindSpeed";
+import Forecast from "./Forecast";
 
 function CityDisplay(props) {
     return (
@@ -10,12 +14,22 @@ function CityDisplay(props) {
             <p>
                 <ReactAnimatedWeather
                     icon={props.icon}
-                    color="rgb(255, 220, 52)"
+                    color="#eeeeee"
+                    // color="rgb(255, 220, 52)"
                     size={props.size}
                     animate={true} 
                 />
             </p>
-            <h1 className="temperature">21°<span className="unit">C</span></h1>
+            <div className="row justify-content-md-center">
+                <HumidityInfo />
+                <Temperature />
+                <WindSpeed />
+            </div>
+            {/* <br /> */}
+            <hr />
+            <div>
+                <Forecast />
+            </div>
         </div>
     );
 }

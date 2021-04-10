@@ -4,7 +4,14 @@
   max-width: 600px;
   padding: 15px;
   border-radius: 8px;
-  /* text-align: center; */
+  background-color:  #fdc57b;
+  /* background-color: rgba(255, 127, 80, 0.6); */
+  /* background: linear-gradient(67.6deg, rgb(225, 242, 254) -2.8%, rgb(193, 224, 250) 44.6%, rgb(19, 116, 197) 102.4%); */
+  /* background: linear-gradient(to top, #7cc4ff 0%, #cfe2fd 100%); */
+  /* background: radial-gradient(circle at 0.7% 1%, rgb(215, 248, 247) 0%, rgb(102, 188, 239) 100.2%); */
+  /* background: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%); */
+  /* background: linear-gradient(178deg, rgba(201, 234, 252, 0.51) 14.9%, rgba(139, 192, 216, 0.73) 80%);  text-align: center; */
+
 }
 
 /* .App {

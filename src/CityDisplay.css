@@ -1,7 +1,7 @@
 .city{
   text-align: center;
   font-size: 3em;
-  opacity: 70%;
+  opacity: .7;
   font-weight: 650;
   margin: 10px auto 0;
 
@@ -9,7 +9,7 @@
 
 div h2 {
   text-align: center;
-  opacity: 60%;
+  opacity: .6;
   font-weight: 500;
   margin-top: 0;
 }
@@ -22,8 +22,8 @@ p {
 .temperature {
     text-align: center;
     margin-top: 10px;
-    opacity: 60%;
-    font-size: 3em;
+    /* opacity: 60%; */
+    /* font-size: 3em; */
 }
 
 .unit {

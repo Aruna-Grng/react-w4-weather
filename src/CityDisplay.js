@@ -15,7 +15,6 @@ function CityDisplay(props) {
                 <ReactAnimatedWeather
                     icon={props.icon}
                     color="#eeeeee"
-                    // color="rgb(255, 220, 52)"
                     size={props.size}
                     animate={true} 
                 />
@@ -25,7 +24,6 @@ function CityDisplay(props) {
                 <Temperature />
                 <WindSpeed />
             </div>
-            {/* <br /> */}
             <hr />
             <div>
                 <Forecast />
